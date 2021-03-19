@@ -1,5 +1,3 @@
-
-
 #!/bin/bash -x
 
 bin=$((RANDOM%2))

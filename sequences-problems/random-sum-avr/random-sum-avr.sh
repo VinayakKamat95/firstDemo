@@ -1,5 +1,3 @@
-
-
 #!/bin/bash -x
 
 num1=$((RANDOM%89+10))
