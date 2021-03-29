@@ -8,4 +8,4 @@ then
 else
 	coin="tails"
 fi
-echo $coin
+echo "winner : "$coin

@@ -13,7 +13,7 @@ totalWorkingDays=0
 
 function getWorkingHrs() {
 
-	
+
 	case $empCheck in
 		$IS_FULL_TIME)
 			empHrs=8
@@ -44,7 +44,8 @@ do
 	dailyWage[$totalWorkingDays]=$( calDailyWage $empHrs )
 
 done
+
 totalsalary=$(($EMP_RATE_PER_HR*$totalEmpHrs))
-#echo $totalsalary
+
 echo "Daily wage :" ${dailyWage[@]}
-echo "day :" ${!dailyWage[*]}
+
